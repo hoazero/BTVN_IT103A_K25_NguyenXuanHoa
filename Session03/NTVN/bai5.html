@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai5</title>
+</head>
+<body>
+    <form action="" method="get">
+        <table border="0" cellpadding="5" cellspacing="2">
+            <tbody>
+                <tr>
+                    <td><label for="fullname">Họ và Tên</label></td>
+                    <td><input type="text" name="fullname" id="fullname"></td>
+                </tr>
+                <tr>
+                    <td><label for="birthday">Ngày sinh</label></td>
+                    <td><input type="date" name="birthday" id="birthday"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Giới tính</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male"> Nam
+                        <input type="radio" name="gender" id="female" value="female"> Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Số điện thoại</label></td>
+                    <td><input type="tel" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Địa chỉ</label></td>
+                    <td><textarea name="address" id="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="role">Vai trò trong nhóm</label></td>
+                    <td><select name="role" id="role">
+                            <option value="member2">Thành viên</option>
+                            <option value="leader">Nhóm trưởng</option>
+                            <option value="member">Nhóm phó</option> 
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="faverit">Sở thích</label></td>
+                    <td><input type="text" name="faverit" id="faverit" ></td>
+                </tr>
+                <tr>
+                    <td><label for="skill">Kĩ năng</label></td>
+                    <td><textarea name="skill" id="skill"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="freetime">Thời gian rảnh</label></td>
+                    <td><input type="checkbox" name="freetime" id="freetime"> Sáng
+                    <input type="checkbox" name="freetime" id="freetime"> Chiều
+                    <input type="checkbox" name="freetime" id="freetime"> Tối</td>
+                </tr>
+                <tr>
+                    <td><label for="reason">Lý do tham gia nhóm</label></td>
+                    <td><textarea name="reason" id="reason"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="favoriteColor">Màu yêu thích</label></td>
+                    <td><input type="color" name="favoriteColor" id="favoriteColor"></td>
+                </tr>
+                <tr>
+                    <td><label for="register">Đăng ký nhận bản tin</label></td>
+                    <td><input type="checkbox" name="register" id="register">có</td>
+                </tr>
+                <tr>
+                    <td><label for="receiveEmail">Nhận thông tin qua email</label></td>
+                    <td><input type="radio" name="receiveEmail" id="receiveEmail">Email
+                    <input type="radio" name="receiveEmail" id="receiveEmail">SMS</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Đặt mua"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

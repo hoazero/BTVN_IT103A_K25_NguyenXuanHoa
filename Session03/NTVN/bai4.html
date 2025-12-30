@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai4</title>
+</head>
+<body>
+    <form action="" method="get">
+        <table border="0" cellpadding="5" cellspacing="2">
+            <tbody>
+                <tr>
+                    <td><label for="fullname">Họ và Tên</label></td>
+                    <td><input type="text" name="fullname" id="fullname"></td>
+                </tr>
+                <tr>
+                    <td><label for="birthday">Ngày sinh</label></td>
+                    <td><input type="date" name="birthday" id="birthday"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Giới tính</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male"> Nam
+                        <input type="radio" name="gender" id="female" value="female"> Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="idNumber">Số căn cước công dân</label></td>
+                    <td><input type="number" name="idNumber" id="idNumber" step="0.01"></td>
+                </tr>
+                <tr>
+                    <td><label for="issueDate">Ngày cấp</label></td>
+                    <td><input type="date" name="issueDate" id="issueDate"></td>
+                </tr>
+                <tr>
+                    <td><label for="issuePlace">Nơi cấp</label></td>
+                    <td><input type="text" name="issuePlace" id="issuePlace"></input></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Số điện thoại</label></td>
+                    <td><input type="tel" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Địa chỉ thường trú</label></td>
+                    <td><textarea name="address" id="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="temporaryAddress">Địa chỉ tạm trú</label></td>
+                    <td><textarea name="temporaryAddress" id="temporaryAddress"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="cccd">Loại căn cước công dân</label></td>
+                    <td><input type="radio" name="cccd" id="cccd_new" value="cccd_new"> Căn cước công dân mới
+                        <input type="radio" name="cccd" id="cccd_old" value="cccd_old"> Căn cước công dân cũ</td>
+                </tr>
+                <tr>
+                    <td><label for="ethnicity">Dân tộc</label></td>
+                    <td><input type="text" name="ethnicity" id="ethnicity"></td>
+                </tr>
+                <tr>
+                    <td><label for="religion">Tôn giáo</label></td>
+                    <td><input type="text" name="religion" id="religion"></td>
+                </tr>
+                <tr>
+                    <td><label for="nationality">Quốc tịch</label></td>
+                    <td><input type="text" name="nationality" id="nationality" value="Việt Nam"></td>
+                </tr>
+                <tr>
+                    <td><label for="nameparents">Họ tên cha/mẹ</label></td>
+                    <td><input type="text" name="nameparents" id="nameparents"></td>
+                </tr>
+                <tr>
+                    <td><label for="parentIdNumber">Số CCCD của cha/mẹ</label></td>
+                    <td><input type="number" name="parentIdNumber" id="parentIdNumber"></td>
+                </tr>
+                <tr>
+                    <td><label for="province">Tỉnh/Thành Phố</label></td>
+                    <td><select name="province" id="province">
+                            <option value="Chọn Tỉnh/Thành Phố">Chọn Tỉnh/Thành Phố</option>
+                            <option value="Hà Nội">Hà Nội</option>
+                            <option value="Hồ Chí Minh">Hồ Chí Minh</option>    
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Gửi thông tin"></td>
+                </tr>
+            </tbody>
+    </form>
+</body>
+</html>
