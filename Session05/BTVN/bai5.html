@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB CỦA SUUU</title>
+    <style>
+        .feedback-form {
+    text-align: center; /* Căn giữa toàn bộ biểu mẫu */
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #1e90ff; /* Màu viền input theo yêu cầu */
+    border-radius: 4px;
+    box-sizing: border-box; /* Đảm bảo padding không làm tràn khung */
+}
+
+.btn-submit {
+    background-color: #00bfff; /* Màu nút theo yêu cầu */
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div class="feedback-form">
+    <h2 style="color: #1e90ff; text-align: center;">Ý Kiến Phản Hồi tới Nha Sỹ</h2>
+    
+    <div class="form-group">
+        <label>Họ và tên:</label><br>
+        <input type="text" placeholder="Nhập họ và tên">
+    </div>
+    <div class="form-group">
+        <label>Email:</label><br>
+        <input type="email" placeholder="Nhập email của bạn">
+    </div>
+    <div class="form-group">
+        <label>Phản hồi của bạn:</label><br>
+        <textarea rows="4" placeholder="Nhập ý kiến của bạn..."></textarea>
+    </div>
+    <button class="btn-submit">Gửi ý kiến</button>
+</div>
+</body>
+</html>

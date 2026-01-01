@@ -1,0 +1,53 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* id selector */
+#heading2-id {
+    color: chocolate;
+}
+
+/* class selector */
+.text-yellow {
+    color: yellow;
+}
+.bg-blue {
+    background-color: blue;
+}
+
+/* element selector */
+table{
+    border: 1px solid black;
+    width: 100px;
+    border-collapse: collapse;
+}
+/* pseudo-class selector */
+td:hover {
+    background-color: blueviolet;
+    color: aqua;
+}
+
+td:active {
+    background-color: gray;
+}
+/* selector combinator */
+div p {
+    background-color: green;
+}
+
+/* attribute selector */
+a[target="_blank"] {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Bộ thuộc tính font */
+p {
+}
+
+/* Bộ thuộc tính text */
+p{
+}
