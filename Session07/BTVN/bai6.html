@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: azure;
+            padding-top: 50px;
+        }
+
+        .state{
+            background-color: white;
+            color: black;
+            position: relative; 
+            border: 1px solid black;
+            width: 450px;
+            border-radius: 15px;
+            margin: 10px auto;
+            padding: 25px;
+        }
+
+        .treatment{
+            position: absolute; 
+            border-radius: 30px;
+            right: 0px;
+            color: brown;
+            margin: 15px;
+            background-color: burlywood;
+            padding: 10px 5px;
+            margin-top: 0px;
+            font-weight: bold;
+        }
+
+        .title{
+            font-weight: bold;
+            font-size: x-large;
+        }
+
+        .info{
+            font-size: 18px;
+        }
+
+        .info p {
+            color: #888;
+        }
+
+        .info strong {
+            color: black;
+        }
+
+        .progress-section{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .progress-bar-container{
+            width: 100%;
+            background-color: darkgray;
+            border-radius: 10px;
+            height: 10px;
+        }
+        .fill{
+            background-color: greenyellow;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .dates{
+            color:#888;;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="state">
+        <div class="treatment">
+            ĐANG ĐIỀU TRỊ
+        </div>
+        <div class="title">Niềng răng chỉnh nha</div>
+        <div class="info">
+            <p>Bác sĩ 👤: <strong>BS. Nguyễn Minh Tâm</strong></p>
+            <p>Chi phí 💰: <strong>25.000.000</strong></p>
+        </div>
+        <div class="progress-section">
+            <h3>Tiến trình điều trị</h3>
+            <div class="progress-bar-container">
+                <div class="fill" style="width: 70%;"></div>
+            </div>
+            <div class="dates">
+                <p>Bắt đầu: 10/03/2025</p>
+                <p>Dự kiến hoàn thành: 10/03/2026</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

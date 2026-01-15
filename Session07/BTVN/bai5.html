@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <header>
+        <style>
+            body{
+                font-family: cursive;
+                background-color: azure;
+                display: flex;
+                justify-content: center;
+                padding-top: 50px;
+            }
+
+            .card{
+                background-color: white;
+                width: 350px;
+                /* padding: 10px 15px; */
+                /* text-align: center; */
+                border: 1px solid #eee;
+                border-radius: 15px;
+                margin: 10px auto;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+                position: relative;   /*gốc tọa độ cho HOT*/
+                overflow: visible;
+            }
+
+            .badge-hot{
+                position: absolute; /* đè lên trên card*/
+                right: 0px;
+                background-color: red;
+                color: white;
+                padding: 5px 10px;
+                border-radius: 20px;
+            }
+
+            .card-header{
+                background-color: #33ffeb;
+                padding: 25px 35px;
+                text-align: center;
+                border-radius: 15px 15px 0 0;
+                font-size: 24px;
+                font-weight: bold;
+            }
+
+            .card-body{
+                padding: 30px;
+            }
+
+            .card-body p {
+                border-bottom: 1px solid #eee;
+                padding: 10px 0;
+                margin: 0;
+                color: #555;
+            }
+
+            .highlight {
+                color: #00ff00;
+                font-weight: bold;
+            }
+
+            .btn-booking{
+                background-color: #00ccff;
+                color: black;
+                padding: 15px;
+                border-radius: 30px;
+                margin-top: 25px;
+                border: none;
+                width: 100%;
+            }
+            
+        </style>
+    </header>
+</head>
+<body>
+    <div class="card">
+        <div class="badge-hot">HOT</div>
+        <div class="card-header">
+            GÓI CHĂM SÓC RĂNG</div>
+        <div class="card-body">
+            <p>Dịch vụ: <span class="highlight">Tẩy trắng răng</span></p>
+            <p>Công nghệ: Laser Whitening</p>
+            <p>Thời gian: <span class="highlight">60 phút</span></p>
+            <p>Bảo hành: <span class="highlight">6 tháng</span></p>
+            <p>Giá ưu đãi: <span class="highlight">1.600.000 đ</span></p>
+        
+            <button class="btn-booking">ĐẶT LỊCH NGAY</button>
+        </div>
+    </div>
+</body>
+</html>

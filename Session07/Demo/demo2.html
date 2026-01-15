@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;/* vị trí so với vị trí ban đầu */
+            top: 100px;
+            left: 50px;
+        }
+        .second{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            z-index: 1;/* độ ưu tiên hiển thị */
+            position: absolute;/* vị trí so với thẻ cha gần nhất có position khác static */
+        }
+        .third{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: fixed;/* vị trí so với cửa sổ trình duyệt */
+            top: 0;
+        }
+        .container{
+            position: relative;/* tạo thẻ cha cho thẻ con có position absolute */
+            height: 1000px;
+            position: sticky;/* vị trí dính khi cuộn trang */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: all 2s;/* hiệu ứng chuyển đổi */
+
+        }
+        .first:hover{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+        }
+        .second{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            transition: all 2s;
+        }
+        .second:hover{
+            transform: rotate(360deg) translateX(100px); /* biến đổi hình học */
+        }
+        .third{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+        .container{
+            position: relative;/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div> 
+    </div>
+</body>
+</html>
